@@ -10,11 +10,19 @@
   <!-- We link our html to the Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
         body {
             background-image: url("Images/Comics.jpg");
         }
         
+        .navbar-margin {
+          margin-top: 50px;
+        }
+
         hr {
           color: gray
         }
@@ -26,31 +34,39 @@
             box-shadow: 0px 0px 10px 0px black;
             margin-top: 20px;
             margin-left: 20px;
-            margin-right: 20px;
+            margin-right: 100px;
         }
 
         .box-container {
             background: white;
-            padding: 10px;
+            padding: 20px;
             border-radius: 20px;
             box-shadow: 0px 0px 10px 0px black;
             margin-top: 20px;
             margin-left: 20px;
             margin-right: 20px;
-
-        footer {
-            margin-top: 20px;
-            padding: 15px;
-            clear: both;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
 
+            footer {
+              position: relative;
+              bottom: 0px;
+              width: 100%;
+              background: #111;
+              color: white;
+              margin-top: 100px;
+            }
+
+
         footer p {
-          text-align: center;
           color: white;
           margin-top: 20px;
         }
 
+        .position-footer {
+          position: -webkit-sticky; /* Safari */
+          position: sticky;
+          top: 50;
+        }
        
     </style>
 
@@ -59,7 +75,7 @@
 <body>
   
 
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark navbar-margin">
 
         <a class="index.html" href="#">Work<span style="color: gray">withBrian</span></a>
       
@@ -84,7 +100,7 @@
         </div>
     </nav> 
 
-    <section class="container form-container">
+    <section class="container-fluid form-container">
         <h1>Portfolio</h1>
         <hr>
         <section class="row justify-content-center">
@@ -113,11 +129,61 @@
 
 
 
-    <footer class="bg-dark dark-footer" style="width: 100%">
-        <p class="text-center">
-            &copy; 2020 Brian Short
-        </p>
-      </footer>
+    <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4">
+        <h2>About me</h2>
+          <div class="content">
+            <p>
+              I'm a writer, editor, web developer, and newsletter-er.<br>
+              Born in Pennsylvania, I lived in Japan and California. <br>
+              Now I call Michigan home.
+            </p>
+          </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <h2>Address</h2>
+        <div class="content">
+          <div class="place">
+            <span class="fas fa-map-marker-alt"></span>
+            <span class="text">Ann Arbor, Michigan</span>
+          </div>
+          <div class="email">
+            <span class="fas fa-envelope">brian.ralph.short @ gmail.com</span>
+          </div>
+          <div class="social">
+            <a href="#"><span class="fab fa-linkedin-in"></span></a>
+            <a href="#"><span class="fab fa-twitter"></span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <h2>Contact me</h2>
+        <div class="content">
+          <form action="#">
+            <div class="email">
+              <div class="text">Email *</div>
+              <input type="email" required>
+            </div>
+            <div class="msg">
+              <div class="text">Message *</div>
+              <textarea name="name" rows="2" cols="25" required></textarea>
+            </div>
+            <div class="btn">
+              <button type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+
+
+    
+  </footer>
    
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
