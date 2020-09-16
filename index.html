@@ -10,189 +10,32 @@
   <!-- We link our html to the Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+ </head>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <body>
+    <h1>Example heading <span class="badge badge-secondary">Ruined!</span></h1>
 
-    <style>
-        body {
-            background: url("Images/Comics.jpg");
-            width: 100%;
-        }
-        
-        .navbar-margin {
-          margin-top: 30px;
-          margin-left: 30px;
-          max-width: 800px;
-        }
-
-        hr {
-          color: gray
-        }
-      
-        .form-container {
-            background: gray;
-            padding: 10px;
-            box-shadow: 0px 0px 10px 0px black;
-            margin-top: 20px;
-            margin-left: 40px;
-            margin-right: 100px;
-            max-width: 700px;
-        }
-
-        .box-container {
-            background: white;
-            padding: 20px;
-            border-radius: 20px;
-            box-shadow: 0px 0px 10px 0px black;
-            margin-top: 20px;
-            margin-left: 20px;
-            margin-right: 20px;
-        }
-
-            footer {
-              position: relative;
-              bottom: 0px;
-              width: 100%;
-              background: #111;
-              color: white;
-              margin-top: 100px;
-              max-width: 800px;
-            }
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-secondary">Midi</button>
+        <button type="button" class="btn btn-secondary">Clor</button>
+        <button type="button" class="btn btn-secondary">Ians</button>
+      </div>
 
 
-        footer p {
-          color: white;
-          margin-top: 20px;
-        }
-
-        .position-footer {
-          position: -webkit-sticky; /* Safari */
-          position: sticky;
-          top: 50;
-        }
-       
-    </style>
-
-</head>
-
-<body>
-       
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark navbar-margin">
-
-        <a class="index.html" href="#">Work<span style="color: gray">withBrian</span></a>
-      
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">About</a>
-            </li>
-          </ul>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
-    </nav> 
-    
-      
-    <section class="container-fluid form-container">
-        <h1>About Brian</h1>
-        <hr>
-        <section class="row">
-            <section="col-12 col-sm-8 col-md-6">
-                <img src="https://www.writeups.org/wp-content/uploads/Buckaroo-Banzai-Peter-Weller.jpg" alt="An illustration of the
-                80s-era superdude Buckaroo Banzai." class="img-fluid float-left" height=100px width=100px>
-                <p>
-                    Log Blimey spyglass gabion American Main fore pressgang. Jack Ketch piracy main sheet Barbary Coast log 
-                    hail-shot cackle fruit. Booty hornswaggle man-of-war cutlass carouser flogging scallywag. Hail-shot heave 
-                    to hempen halter doubloon Jack Ketch tack avast. Gabion knave shrouds wherry tack handsomely Sea Legs. 
-                </p>
-                <p>
-                    Log Blimey spyglass gabion American Main fore pressgang. Jack Ketch piracy main sheet Barbary Coast log 
-                    hail-shot cackle fruit. Booty hornswaggle man-of-war cutlass carouser flogging scallywag. Hail-shot heave 
-                    to hempen halter doubloon Jack Ketch tack avast. Gabion knave shrouds wherry tack handsomely Sea Legs. 
-                </p>
-            </section>
-        </section>
-
-    </section>
-    
-
-    <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-4">
-            <h2>About me</h2>
-              <div class="content">
-                <p>
-                  I'm a writer, editor, web developer, and newsletter-er.<br>
-                  Born in Pennsylvania, I lived in Japan and California. <br>
-                  Now I call Michigan home.
-                </p>
-              </div>
-          </div>
-    
-          <div class="col-12 col-md-4">
-            <h2>Address</h2>
-            <div class="content">
-              <div class="place">
-                <span class="fas fa-map-marker-alt"></span>
-                <span class="text">Ann Arbor, Michigan</span>
-              </div>
-              <div class="email">
-                <span class="fas fa-envelope">brian.ralph.short @ gmail.com</span>
-              </div>
-              <div class="social">
-                <a href="#"><span class="fab fa-linkedin-in"></span></a>
-                <a href="#"><span class="fab fa-twitter"></span></a>
-              </div>
-            </div>
-          </div>
-    
-          <div class="col-12 col-md-4">
-            <h2>Contact me</h2>
-            <div class="content">
-              <form action="#">
-                <div class="email">
-                  <div class="text">Email *</div>
-                  <input type="email" required>
-                </div>
-                <div class="msg">
-                  <div class="text">Message *</div>
-                  <textarea name="name" rows="2" cols="25" required></textarea>
-                </div>
-                <div class="btn">
-                  <button type="submit">Send</button>
-                </div>
-              </form>
-            </div>
-    
-          </div>
-    
-    
-    
-        
-      </footer>
-    
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>                
-              
-
-    </body>
-    
-    </html>
-    
-    
-
-
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+ </body>
