@@ -2,7 +2,7 @@ The goal of this portfolio was to use the Bootstrap library to create a responsi
 
 I practiced and studied a number of skills during the execution of this assignment, including using containers, rows, and columns; creating responsive images; using empty divs to shape the page; and more. Two big surprises for me as I worked through this assignment were how useful nested rows were to shape and sculpt individual elements and sub-elements of the page and how comprehensive the Bootstrap class library was; early drafts included a bit of internal CSS to get the elements where I wanted them to be, elements that were finally unnecessary to successfully complete the assignment as assigned. 
 
-
+I'll note here (since there was some confusion in the class slack) that I've intentionally used as little internal/external CSS as possible in order to maximize my work with bootstrap, which, in my understanding, was the point of hte assignment. (See below.) 
 
 Here's the assignment:
 
