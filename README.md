@@ -6,8 +6,7 @@ I'll note here (since there was some confusion in the class slack) that I've int
 
 Here are some screenshots of the final web page:
 
-![Image of mobile site]
-(Images/Mobile.jpg)
+![Image of mobile site](https://brianrshort.github.io/responsive-portfolio/Images/Mobile.jpg)
 
 ![Image of medium width site]
 (Images/Medium.jpg)
