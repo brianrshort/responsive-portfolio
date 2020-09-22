@@ -6,13 +6,11 @@ I'll note here (since there was some confusion in the class slack) that I've int
 
 Here are some screenshots of the final web page:
 
-![Image of mobile site](Images/Mobile.jpg)
+![Image of mobile site](Images/Mobile.png)
 
-![Image of medium width site]
-(Images/Medium.jpg)
+![Image of medium width site](Images/Medium.png)
 
-![Image of desktop site]
-(Images/Large.jpg)
+![Image of desktop site](Images/Large.png)
 
 Here's the assignment:
 
