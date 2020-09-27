@@ -4,6 +4,8 @@ I practiced and studied a number of skills during the execution of this assignme
 
 I'll note here (since there was some confusion in the class slack) that I've intentionally used as little internal/external CSS as possible in order to maximize my work with bootstrap, which, in my understanding, was the point of hte assignment. (See below.) 
 
+Here's the link to the live site: https://brianrshort.github.io/responsive-portfolio/
+
 Here are some screenshots of the final web page:
 
 ![Image of mobile site](Images/Mobile.png)
