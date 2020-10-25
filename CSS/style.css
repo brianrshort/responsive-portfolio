@@ -1,15 +1,16 @@
 .navbar {
     background-color: #F21D2F;
+    color:#FFFACC;
     border-bottom: 5px solid #F2CB05 ;
 }
 
 footer {
     background-color: #F21D2F;
-    color: #FFFACC
+    color: #FFFACC;
     border-top: 5px solid #F2CB05 ;
 }
 
-a {
+.navbar a {
     color: #FFFACC;
 }
 
@@ -17,4 +18,25 @@ body {
     background-color: #82B0D9;
     font-family: 'Raleway', sans-serif;
 }
-/* Red #F21D2F Blue #82B0D9 Greenblue #B8D9C0 Brightyellow #F2E205 Darkyellow #F2CB05 Whiteish #FFFACC
+
+#burger {
+    color: #FFFACC;
+}
+
+.col-lg-10 {
+    background-color: #FFFACC;
+}
+
+/* Red #F21D2F Blue #82B0D9 Greenblue #B8D9C0 Brightyellow #F2E205 Darkyellow #F2CB05 Whiteish #FFFACC*/
+
+
+@media only screen and (max-width: 800px) {
+
+img {
+    display: none;
+}
+
+}
+
+
+
