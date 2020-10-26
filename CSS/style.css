@@ -29,10 +29,23 @@ body {
 
 /* Red #F21D2F Blue #82B0D9 Greenblue #B8D9C0 Brightyellow #F2E205 Darkyellow #F2CB05 Whiteish #FFFACC*/
 
+figure {
+    display: inline-block;
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    text-align: center;
+}
+
+#floater {
+    float: left;
+}
 
 @media only screen and (max-width: 800px) {
 
-img {
+#floater {
     display: none;
 }
 
