@@ -6,6 +6,8 @@ I'll note here (since there was some confusion in the class slack) that I've int
 
 Here's the link to the live site: https://brianrshort.github.io/responsive-portfolio/
 
+License: MIT
+
 Here are some screenshots of the final web page:
 
 ![Image of mobile site](Images/Mobile.png)
