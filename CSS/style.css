@@ -1,13 +1,13 @@
 .navbar {
-    background-color: #F21D2F;
+    background-color:#008183;
     color:#FFFACC;
-    border-bottom: 5px solid #F2CB05 ;
+    border-bottom: 10px solid #909ab7 ;
 }
 
 footer {
-    background-color: #F21D2F;
+    background-color: #008183;
     color: #FFFACC;
-    border-top: 5px solid #F2CB05 ;
+    border-top: 10px solid  #909ab7 ;
 }
 
 .navbar a {
@@ -15,7 +15,9 @@ footer {
 }
 
 body {
-    background-color: #82B0D9;
+    background-color: #97A2A2;
+    /*background-color: #D1DE3F;*/
+    /*background-color: #FFFACC;*/
     font-family: 'Raleway', sans-serif;
 }
 
@@ -25,6 +27,7 @@ body {
 
 .col-lg-10 {
     background-color: #FFFACC;
+    /*background-color: #97A2A2;*/
 }
 
 /* Red #F21D2F Blue #82B0D9 Greenblue #B8D9C0 Brightyellow #F2E205 Darkyellow #F2CB05 Whiteish #FFFACC*/
@@ -47,6 +50,10 @@ figure figcaption {
     display: block;
 }
 
+.card {
+    background-color: #909ab7;
+    border: 5px solid #008183 ;
+}
 
 @media only screen and (max-width: 800px) {
 
@@ -56,5 +63,20 @@ figure figcaption {
 
 }
 
+
+
+
+  /*Light green #0DB14B
+  Gray #97A2A2
+  Orange #F08521
+  Light blue #008183
+  Lighter blue #909ab7
+  Gray-purple #535054
+  Yellow #D1DE3F
+  Pink #E8D9B5
+  Pastel orange #C89A58
+  Pea green #94AE4A
+  Purple #6E005F
+  Another orange #CB5A28*/
 
 
