@@ -8,6 +8,8 @@ The assignment requested an email address and phone number, both of which are av
 
 Here's the link to the live site: https://brianrshort.github.io/responsive-portfolio/
 
+License: MIT
+
 Here are some screenshots of the final web page:
 
 ![Image of mobile site](Images/Mobile.png)
